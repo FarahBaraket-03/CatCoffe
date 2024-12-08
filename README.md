@@ -1,5 +1,7 @@
 collaboration with : Hajer ben Naccer/Ahlem Mastouri/Nour Moustapha(https://github.com/nm727?fbclid=IwY2xjawHC_C9leHRuA2FlbQIxMAABHVQF9I1mQ0SrXepzIc7Caka2DAvTC1Lmwu0Dw2sWzl1H1UKpGYmRitZDiQ_aem_YyuhA-mb55yKCMxC-_9RSQ)
 
+to run project you should run command 
+npm start for both back and front
 
 consists of having
  home page made by Hajer:
@@ -19,7 +21,7 @@ Page Reservation made By me :
 ![462571044_1740360210083137_1477415716497447031_n](https://github.com/user-attachments/assets/a1e8c19a-e1c6-49e2-9736-ec32e4d66fbc)
 
 
-AND Admin Panel Made by Ahlem:
+AND Admin Panel Made by Ahlem and me:
 ![465762521_573257762105844_7529607128847033519_n](https://github.com/user-attachments/assets/4b9e61db-1aac-4337-a63b-f0181f9f52cf)
 
 

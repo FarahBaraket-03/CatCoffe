@@ -1,0 +1,145 @@
+ 
+/* #body{
+    background-image: url("./img/grain.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:fixed;
+    padding-bottom: 200px;
+    padding-top: 10px;
+
+ 
+} */
+
+.contain1{
+    display : flex;
+    flex-direction: column;
+    margin :auto;
+    margin-top:50px;
+    /* background: #fff; */
+    width:700px;
+    border-radius: 30px;
+    filter:drop-shadow(2px 2px 8px #121312);/*   text-shadow */
+    filter:drop-shadow(2px 2px 8px #999999);/*   text-shadow */
+    box-sizing: border-box;
+    backdrop-filter: brightness(80%);
+ 
+
+
+}
+
+.header1{
+
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top :10px;
+    margin-bottom :20px;
+    width:100%;
+    gap:9px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+
+}
+
+.text1{
+    color:white;
+    font-size :48px;
+    font-weight: 700;
+}
+
+.underline1{
+
+width :89px;
+height: 6px;
+/* background:linear-gradient(45deg ,#098dc1,60%,#f417de); */
+background:linear-gradient(45deg ,#e6d23d,60%,#ad9432); 
+
+border-radius:9px;
+
+}
+
+.inputs1{
+margin-top:15px;
+display:flex;
+flex-direction: column;
+gap:25px;
+
+}
+
+.input1{
+display:flex;
+align-items:center;
+margin: auto;
+width:480px;
+height:80px;
+background: #eaeaea;
+border-radius: 6px;
+
+
+} 
+.input1 img {
+    margin :0px 30px;
+    
+}
+
+.input1 input{
+height:50px;
+width:400px;
+background: transparent;
+border:none;
+outline:none;
+color: #797979;
+font-size:19px;
+
+
+
+}
+
+.admin{
+padding-left : 111px;
+margin-top: 27px;
+color:white;
+font-size: 18px;
+
+
+}
+
+.forgot-password span{
+color : white;
+ 
+cursor:pointer;
+
+    
+    }
+
+.submit-container1{
+        display : flex;
+        gap:30px;
+        margin : 30px auto;
+    }
+
+
+    .submit1{
+         display: flex;
+         justify-content: center;
+         font-size: 19px;
+         font-weight: 500;
+         align-items: center;
+         width :220px;
+         height :59px;
+         /* color:#fff; */
+         /* background: #4c00b4; */
+         color :#eee;
+         border-radius: 50px;
+         font-size: 19px;
+         cursor:pointer;
+         background:linear-gradient(45deg ,#f4bc01,60%,#c99c08) ;
+
+    }
+
+     
+
+    .gray1{
+        background: #EAEAEA;
+        color: #676767;
+    }

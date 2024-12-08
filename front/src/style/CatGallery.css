@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+.cat-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin: 20px;
+}
+.hh h1{
+    text-align: center;
+    color: rgb(150, 111, 19);
+    font-family: "Sour Gummy", sans-serif;
+    font-style: italic;
+    margin-bottom: 50px;
+    font-size: 50px;
+    
+  }
+.allcat{
+    background-image: url("../../public/resource/cats/background.jpg");
+    margin-top: 20px;
+    
+}
+
+.hh{
+    background-color: #f1cb95;
+    padding: 50px;
+    margin-top: 30px;
+}
+
+.cat-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    max-width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: rgb(255, 249, 239);
+}
+
+.cat-image {
+    max-width: 100%;
+    border-radius: 8px;
+    background-color: white;
+    border: black 1px;
+}
+ 
+
+.adopted {
+    color: rgb(49, 108, 49);
+    font-weight: bold;
+}
+
+.available {
+    color: orange;
+    font-weight: bold;
+}

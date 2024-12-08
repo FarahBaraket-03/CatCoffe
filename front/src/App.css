@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Ysabeau+Office:ital,wght@1,100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Ysabeau+Office:ital,wght@1,100&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Ysabeau+Office:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Handlee&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Ysabeau+Office:ital,wght@1,100&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Ysabeau+Office:ital,wght@1,100&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Ysabeau+Office:ital,wght@1,100&display=swap');
+
+*{
+  cursor: url('./resources/paw.png') ,pointer;
+}
+
+.ball{
+  height: 45px;
+  width: 45px;
+  margin: 10px;
+  background-color:  transparent;
+  border:rgb(245, 213, 164) 1px solid;
+  border-radius: 50%;
+  transition: 0.2s ease-in;
+}
+.ball_yours{
+  background-color: rgb(139, 141, 143);
+  border:  rgb(139, 141, 143) 1px solid;
+}
+.ball_temp{
+  background-color: #d28b3e;
+  border:  #d28b3e 1px solid;
+}
+
+.ball_full{
+  background-color: rgb(245, 213, 164);
+}
+.ball_vide{
+  background-color: transparent;
+}
+.cont{
+  border-radius: 15px;
+  cursor: url('./resources/paw.png') ,pointer;
+  background-color: rgb(101, 54, 25);
+  color: white;
+}
+.rowrow{
+  padding: 10px;
+  column-gap: 13px;
+}
+
+.g{
+  padding: 10px ;
+  border-radius: 20px;
+  background-color: rgba(229, 179, 135, 0.342);
+}
+p{
+  font-weight: 600;
+}
+.time{
+  background-color: #4d3f31aa;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.1s ease-out;
+  margin: 5px 0;
+  padding: 2px;
+  cursor: url('./resources/paw.png') ,pointer;
+  font-family: 'Roboto', sans-serif;  
+  font-size: 13px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.colorTime{
+  background-color:#977e62aa ;
+}
+.time:hover{
+  transform: scale(1.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin: 100px 0;
+}
+.form input{ 
+  cursor: url('./resources/paw.png') ,pointer;
+  overflow: visible;            /* Remove focus outline */
+  border-bottom: 2px solid rgba(128, 64, 0, 0.78); /* Set the bottom border */
+}
+textarea{
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+.appointment-form{
+  row-gap: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.bt{
+  background-color: #d28b3e;
+  border: 1px solid transparent;
+  font-weight: 350;
+  transition: all 0.1s ease-out;
+  border:  #d28b3e 2px solid;
+  cursor: url('./resources/paw.png') ,pointer;
+  letter-spacing: 1px;
+}
+.bt:hover{
+  color:  #d28b3e;
+  cursor: url('./resources/paw.png') ,pointer;
+  background-color: transparent;
+  border:  #d28b3e 1px solid;
+  font-weight: bold;
+  transition: 0.2s ;
+}
+.navbar-brand img{
+  width: 85px !important;
+  height: 90px !important;
+  top: 0px;
+  margin-right: 10px;
+  position: absolute;
+}
+.navbar-brand span{
+  font-size: 22px;
+  margin-left: 86px;
+  padding: 15px;
+  letter-spacing: 2px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+.navbar-nav{
+  margin-left: 15%;
+  cursor: url('./resources/paw.png') ,pointer;
+  margin-top: 5px;
+}
+.navbar-collapse ul{
+  gap: 20px;
+}
+.navbar-collapse ul button{
+  letter-spacing: 1px;
+  cursor: url('./resources/paw.png') ,pointer;
+}
+
+.textOnCarsousel{
+  text-align: center;
+  position: absolute;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  align-items: center;
+  margin-top: 40px;
+  width: 100%;
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  z-index: 0;
+
+}
+.textOnCarsousel h3{
+  font-size: 9vw;
+  font-weight: bold;
+  color: rgba(69, 36, 12, 0.993);
+  text-shadow:  0 4px 6px rgba(240, 232, 232, 0.7);
+}
+.textOnCarsousel h1{
+  font-weight: bolder;
+}
+
+header{
+  margin-bottom: 15px;
+}
+
+.carousel-inner{
+  max-height: 550px;
+  cursor: url('./resources/paw.png') ,pointer;
+}
+
+.arrow{
+  width: 40px;
+  height: 40px;
+  cursor: url('./resources/paw.png') ,pointer;
+  margin: 0 5px;
+  font-size: 1.5rem;
+  border: none;
+  background-color: transparent;
+  color: white;
+  transition: all 0.3s ease;
+  border-radius: 50%;
+  z-index: 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.arrow:focus {
+  cursor: url('./resources/paw.png') ,pointer;
+  outline: none;
+}
+
+/* Left Arrow */
+.arrow:nth-child(1):before {
+  content: '<';
+  font-size: 1.5rem;
+}
+
+/* Right Arrow */
+.arrow:nth-child(2):before {
+  content: '>';
+  font-size: 1.5rem;
+ 
+}
+
+/* Hover Effect */
+.arrow:hover {
+  cursor: url('./resources/paw.png') ,pointer;
+  background-color: rgba(0, 0, 0, 0.1);
+  transform: scale(1.1);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+.small-img{
+  transition: all 0.2s ease;
+  cursor:pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.small-img:hover{
+  background-color: rgba(0, 0, 0, 0.2);
+  transform: scale(1.1);
+  padding:1px;
+  border-radius:50%;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+.arrow:active {
+  transform: scale(1);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.big_text{
+  font-family: "Playfair Display", serif;
+  font-size: 50px;
+  margin: 30px 0;
+  text-decoration: none;
+  border-bottom: 3px solid #a9a9aa  ;
+  padding-bottom: 20px;
+}
+.text_table{
+  font-family: "PT Serif", serif;
+}
+.title{
+  font-family: "Handlee", cursive;
+}
+.circle-text-container {
+  display: flex;
+  margin: 10px 0; /* Adds space between items */
+}
+
+.circle {
+  width: 20px; /* Diameter of the circle */
+  height: 20px;
+  border-radius: 50%; /* Makes it a circle */
+  margin-right: 10px; /* Space between circle and text */
+}
+
+.circle-text {
+  letter-spacing: 1px;
+  font-family: "Sour Gummy", sans-serif;
+  font-size: 14px; /* Adjust font size */
+  color: #ffffffea; /* Text color */
+  font-weight: 500; /* Slightly bold text */
+}
+.circles{
+  display: flex;
+  justify-content:space-around;
+}
+
+
+.affiche_time {
+  margin-left: 20px;
+  background-color: #111111f8; /* Dark background */
+  font-family: 'Arial', sans-serif;
+  padding: 20px;
+  box-shadow: 0 8px 8px rgb(0, 0, 0);
+}
+.affiche_time .container{
+  text-align: center;
+}
+.affiche_time .card{
+  padding: 10px;
+  border: 2px dashed #ff9900; /* Dashed border */
+  background-color: #222; /* Darker background for card */
+}
+.affiche_time h1{
+  color: white;
+  font-family: "Dancing Script", cursive;
+  font-size: 3rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.affiche_time h2{
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+.hours{
+  margin-bottom: 20px;
+  color: #c0c0c2;
+  font-size: 13px;
+  font-family: "PT Serif";
+  letter-spacing: 1px;
+  
+}
+.affiche_time .card-subtitle{
+  color: #d29e3e;
+  font-weight: 300;
+  font-family: "Sour Gummy", sans-serif;
+}
+.table_titre{
+  font-size: 16px;
+  font-weight: bold;
+  font-family: "Sour Gummy", sans-serif;
+  text-align: center;
+ 
+}
+.custom-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1050; /* Higher than most Bootstrap elements */
+}
+
+.custom-modal-box {
+  background: #fff; /* White box background */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25); /* Shadow for modal effect */
+  max-width: 500px;
+  width: 90%;
+  max-height: 80%; /* Ensure modal doesn't exceed viewport */
+  overflow: hidden; /* Hide overflow outside the box */
+  display: flex;
+  flex-direction: column;
+}
+.modal-content {
+  scroll-behavior: smooth;
+  flex-grow: 1;
+  overflow-y: auto; /* Enable vertical scrolling */
+  max-height: calc(100% - 50px); /* Adjust based on header/footer height */
+  padding-right: 10px; /* Space for scrollbar */
+}
+p{
+  font-weight: 400;
+  font-family: "Sour Gummy", sans-serif;
+  margin:10px 0;
+}
+
+footer h1,footer h2{
+    font-family: "PT Serif", serif;
+}
+
+#SCALE:hover{
+  transform:scale(0.94)
+}
+
+h1 span button{
+  margin-left: 90px;
+}
